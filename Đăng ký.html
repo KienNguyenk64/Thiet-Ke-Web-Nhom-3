@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="/styles/Đăng ký.css">
+</head>
+<body>
+    <div class="header">
+            <img class="logo-full-4R2" src="./assets/logo-full.png"/>
+    </div>
+    <h1>DÙNG THỬ MIỄN PHÍ PHẦN MỀM QUẢN LÝ BÁN HÀNG</h1>
+    <img class="image-1-aBn" src="./assets/image-1.png"/>
+<div class="khoi1">
+    <div class="khoi2">
+        <p>THÔNG TIN ĐĂNG KÍ</p>
+    </div>
+    <form action="/Thông tin đăng nhập.php" method="post">
+        <input type="text" name="họ và tên" required placeholder="Họ và tên*"><br>
+        <select id="country" name="country">
+            <option disabled="" value="">Tên tỉnh/Thành phố*</option>
+            <option value="Hà Nội">Hà Nội</option>
+            <option value="An Giang">An Giang</option>
+            <option value="TP. Hồ Chí Minh">TP. Hồ Chí Minh</option>
+            <option value="Bà Rịa - Vũng Tàu">Bà Rịa - Vũng Tàu</option>
+        </select> <br>
+        <input type="tel" name="txtTelephone" id="txtTelephone" placeholder="Số Điện Thoại*" required><br>
+        <input type="email" name="txtemail" id="txtemail" placeholder="Email*" required><br>
+        <select name="lĩnh vự kinh doanh" id="lĩnh vực kinh doanh" required>
+            <option disabled="" value="">Lĩnh vực kinh doanh*</option>
+            <option value="5">Thời trang</option>
+            <option value="2">Nhà hàng, café</option>
+            <option value="3">Dịch vụ, chăm sóc</option>
+            <option value="1">Siêu thị, bán lẻ</option>
+            <option value="4">Khác</option>
+        </select>
+        <input type="submit" value="ĐĂNG KÝ NGAY">
+    </form>
+</div>
+</body>
+</html>
